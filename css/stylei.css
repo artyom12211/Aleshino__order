@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.ttf-1mbv4h')/*tpa=http://xn---107-43db7ayzwl1j.xn--p1ai/templates/default/css/fonts/icomoon.eot?1mbv4h*/;
+  src:  url('../fonts/icomoon.ttf-1mbv4h')/*tpa=http://xn---107-43db7ayzwl1j.xn--p1ai/templates/default/css/fonts/icomoon.eot?1mbv4h#iefix*/ format('embedded-opentype'),
+    url('../fonts/icomoon.ttf-1mbv4h')/*tpa=http://xn---107-43db7ayzwl1j.xn--p1ai/templates/default/css/fonts/icomoon.ttf?1mbv4h*/ format('truetype'),
+    url(../'fonts/icomoon.woff-1mbv4h')/*tpa=http://xn---107-43db7ayzwl1j.xn--p1ai/templates/default/css/fonts/icomoon.woff?1mbv4h*/ format('woff'),
+    url('../fonts/icomoon.svg-1mbv4h#icomoon')/*tpa=http://xn---107-43db7ayzwl1j.xn--p1ai/templates/default/css/fonts/icomoon.svg?1mbv4h#icomoon*/ format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-m8-gaz:before {
+  content: "\e900";
+}
+.icon-m8-dorogi:before {
+  content: "\e901";
+}
+.icon-m8-elektrichestvo:before {
+  content: "\e902";
+}
+.icon-m8-geo:before {
+  content: "\e903";
+}
+.icon-m8-left:before {
+  content: "\e904";
+}
+.icon-m8-logistik-center:before {
+  content: "\e905";
+}
+.icon-m8-ohrana:before {
+  content: "\e906";
+}
+.icon-m8-proizvodstvo:before {
+  content: "\e907";
+}
+.icon-m8-razvilka:before {
+  content: "\e908";
+}
+.icon-m8-right:before {
+  content: "\e909";
+}
+.icon-m8-sklad:before {
+  content: "\e90a";
+}
+.icon-m8-torgovlya:before {
+  content: "\e90b";
+}
+.icon-m8-voda:before {
+  content: "\e90c";
+}
+.icon-alert-circle:before {
+  content: "\e90d";
+}
+.icon-alert-octagon:before {
+  content: "\e90e";
+}
+.icon-alert-triangle:before {
+  content: "\e90f";
+}
+.icon-at-sign:before {
+  content: "\e910";
+}
+.icon-award:before {
+  content: "\e911";
+}
+.icon-camera:before {
+  content: "\e912";
+}
+.icon-camera-off:before {
+  content: "\e913";
+}
+.icon-file-text:before {
+  content: "\e914";
+}
+.icon-mail:before {
+  content: "\e915";
+}
+.icon-maximize-2:before {
+  content: "\e916";
+}
+.icon-message-circle:before {
+  content: "\e917";
+}
+.icon-message-square:before {
+  content: "\e918";
+}
+.icon-minimize-2:before {
+  content: "\e919";
+}
+.icon-phone-call:before {
+  content: "\e91a";
+}
+.icon-star:before {
+  content: "\e91b";
+}
+.icon-thumbs-up:before {
+  content: "\e91c";
+}
+.icon-zoom-in:before {
+  content: "\e91d";
+}
+.icon-zoom-out:before {
+  content: "\e91e";
+}
