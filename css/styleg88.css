@@ -16,6 +16,10 @@
          url("../fonts/10248.ttf")/*tpa=http://xn---107-43db7ayzwl1j.xn--p1ai/templates/default/css/fonts/10248.ttf*/ format("truetype"),
          url("../fonts/10248.svg#10248")/*tpa=http://xn---107-43db7ayzwl1j.xn--p1ai/templates/default/css/fonts/10248.svg#10248*/ format("svg");
 }
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../fonts/Myriad-Pro.ttf') format("truetype");
+}
 body a,
 body a:hover,
 body a:focus{
@@ -59,7 +63,7 @@ body .btn:focus{
  box-shadow: 0 0 0 0rem rgba(0,123,255,0);
 }
 html, body{
- font-family: s10247;
+ font-family: Myriad Pro;
  /* font-size: 21px; */
  color: #999999;
  overflow-x: hidden;
@@ -120,43 +124,30 @@ html a .icomoon{
  text-decoration: none !important;
 }
 .vverh-fon{
-         background-color: #434343;
+        background-color: #1A294D;
         width: 100%;
         height: 70%;
         position: absolute;
         top: 0;
 }
 .vverh-tel{
+        margin-top: 20px;
         text-align: right;
-        /* margin-bottom: 15px; */
         position: absolute;
         width: 100%;
 }
-/* .vverh-tel span{
-        margin: 0 5px;
-                padding: 10px 30px;
-        background-color: #F0C735;
-        color: #363636;
-                display: inline-block;
-} */
-.vverh-tel span:first-child{
-        background-color: #ffffff;
-        color: #363636;
-}
-.vverh-tel span:last-child{
- margin-right: 0;
-}
+
 .menu{
-                position: fixed;
+        position: fixed;
         top: 0;
         width: 100%;
         z-index: 1;
         text-align: center;
         color: #ffffff;
-                font-size: 21px;
-               margin-top: 0px;
-        background-color: #434343;
-               padding: 10px 0 30px;
+        font-size: 21px;
+         margin-top: 0px;
+        background-color: #1A294D;
+        padding: 10px 0 30px;
 }
 .menu ul{
         margin: 0;
@@ -246,59 +237,49 @@ color: #434343;
 }
 _:-ms-fullscreen, :root .shapka h3 { margin-left: 800px; }
 .shapka{
-        position: relative;
-        margin-top: 155px;
-        text-align: center;
-        width: 100%;
+    position: relative;
+    margin-top: 155px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 4px;
 }
 .conten{
- background-color: #e2e2e2;
-        width: 100%;
-        text-align: center;
-                margin-top: 10px;
-                padding: 0 33px 0 33px;
-/*         padding-top: 50px;
-        padding-bottom: 50px; */
-        
+    background-color: #B44849;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding: 0 33px 0 33px; 
 }
-.conten p {
-        /* text-align: left;
-        margin-top: 15px; */
-                
+.conten > div {
+    color: white;
 }
-/* .conten .col-md-5 p {
-       margin-top: 19px;
-       text-align: left;
-       font-size: 21px;
-} */
-.conten .col-md-7 p {
-       color: #000000;
-       border-top: 1px solid #f0c735;
-       /* font-size: 21px; */
+.conten > div p {
+    color: white;
 }
+.conten > div:last-child > div {
+    margin: 25px 0 20px 0;
+}
+.conten > div:last-child > div:nth-child(2) {
+    border-left: 1px solid #839235;
+    border-right: 1px solid #839235;
+}    
+.conten > div:last-child > div > p {
+    margin-bottom: 5px;
+}    
+
 .conten .col-md-8 p:before {
-        content: "";
-        display: inline-block;
-        vertical-align: middle;
-        width: 100%;
-        height: 2px;
-        background-color: #F0C735;
-        position: relative;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 2px;
+    background-color: #F0C735;
+    position: relative;
 }
-/* .conten spanp{
-                font-size: 55px;
-        font-weight: 500;
-}
-.conten spanpp{
-                font-size: 33px;
-        font-weight: 500;
-} */
 .conten .icomoon{
-        /* font-size: 51px; */
         color: #F0C735;
         float: left;
-        /* line-height: 2.6;
-                margin-right: 20px; */
 }
 hr {
     -webkit-transform: rotate(170deg);
@@ -872,12 +853,15 @@ font-size: 18px;
         position: relative;
  }
  .vverh-tel span {
-        padding: 10px 10px;
-        background-color: #F0C735;
-        color: #363636;
+        padding: 10px 0px !important;
         display: inline-block;
         width: 49%;
         text-align: center;
+        color: #b9db5a;
+        font-family: "Myriad Pro - Semibold";
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 21px;
  }
  .shapka-mob{
           position: relative;
@@ -918,16 +902,14 @@ font-size: 18px;
  .conten .col-md-7 {
        padding: 0;
  }
- .conten .col-md-7 p {
-       font-size: 17px;
- }
  .conten spanp{
-                font-size: 33px;
+        font-size: 33px;
         font-weight: 500;
  }
  .conten spanpp{
-                font-size: 17px;
-        font-weight: 500;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 21px;
  }
  html h1{
         font-size: 31px;
@@ -1011,9 +993,6 @@ width: 242px;
                 position: absolute;
         margin-top: -97px;
  }
- .conten .col-md-7 p {
-        font-size: 19px;
- }
  .nameblock-img h4 {
          color: #434343;
          font-size: 28px;
@@ -1039,9 +1018,6 @@ width: 242px;
         overflow: hidden;
         height: 464px;
 }
-.conten .col-md-7 p {
-        font-size: 20px;
-}
 }
 @media (min-width: 400px) {
  .video .videoin .nameblock h3 {
@@ -1063,13 +1039,10 @@ width: 242px;
        font-size: 18px;
  }
  .conten .col-md-7 p {
-       font-size: 16px;
+       font-size: 15px;
  }
  .conten spanp{
                 font-size: 43px;
- }
- .conten spanpp{
-                font-size: 25px;
  }
  html h1{
         font-size: 37px;
@@ -1152,14 +1125,8 @@ hr {
  .conten .icomoon{
         font-size: 45px;
  }
- .conten .col-md-7 p {
-       font-size: 21px;
- }
  .conten spanp{
                 font-size: 47px;
- }
- .conten spanpp{
-                font-size: 31px;
  }
  .nameblock-img h4{
         font-size: 31px;
@@ -1253,9 +1220,6 @@ hr {
         margin-top: -315px;
         font-size: 41px;
 }
-.conten .col-md-7 p {
-        font-size: 18px;
-}
 }
 @media (min-width: 992px) {
  .video .videof{
@@ -1291,8 +1255,33 @@ font-size: 21px;
      max-width: 16.666667%;
  }
 .conten {
-        max-width: max-content;
- }
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    max-width: 1140px;
+}
+.conten > div:first-child {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+.conten > div:first-child > img {
+    margin-right: 20px;
+}
+.conten > div:first-child > p {
+    max-width: 300px;
+    color: #ffffff;
+    font-family: "Myriad Pro - Semibold";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21px;
+}
  .nameblock-img{
         margin-top: 15px;
         text-align: center;
@@ -1369,22 +1358,11 @@ font-size: 21px;
  }
  .conten .col-md-4 {
        width: 33.3%;
-               padding-right: 15px;
-        padding-left: 15px;
- }
- .conten spanp{
-                font-size: 55px;
-        font-weight: 500;
- }
- .conten spanpp{
-                font-size: 33px;
-        font-weight: 500;
- }
- .conten .col-md-7 p {
-       font-size: 21px;
+       padding-right: 15px;
+       padding-left: 15px;
  }
  .conten .col-md-7 {
-              padding-right: 15px;
+        padding-right: 15px;
         padding-left: 15px;
  }
  .conten .col-md-5 p {
@@ -1395,7 +1373,7 @@ font-size: 21px;
  .conten .icomoon{
         font-size: 51px;
         line-height: 2.6;
-                margin-right: 20px;
+        margin-right: 20px;
  }
  .menu-mob, .shapka-mob{
   display:none;
@@ -1404,20 +1382,15 @@ font-size: 21px;
   display: block;
  }
  .vverh-tel span{
-        margin: 0 5px;
-                padding: 10px 30px;
-        background-color: #F0C735;
-        color: #363636;
-                display: inline-block;
-              width: auto;
+        padding: 10px 30px;
+        color: #b9db5a;
+        display: inline-block;
+        width: auto;
  }
 }
 @media (min-width: 992px) {
  .shapka h3{
         font-size: 31px;
- }
- .conten .col-md-7 p {
-        font-size: 19px;
  }
  .nameblock-img h5 {
         margin: 0 50px 0 20px;
@@ -1463,9 +1436,6 @@ font-size: 21px;
  }
  .shapka h3{
   font-size: 34px;
- }
- .conten .col-md-7 p {
-        font-size: 19px;
  }
  .nameblock-img h5{
         display: inline-block;
@@ -1560,13 +1530,6 @@ font-size: 21px;
                 font-size: 55px;
         font-weight: 500;
  }
- .conten spanpp{
-                font-size: 33px;
-        font-weight: 500;
- }
- .conten .col-md-7 p {
-       font-size: 21px;
- }
  .conten .col-md-7 {
               padding-right: 15px;
         padding-left: 15px;
@@ -1589,10 +1552,9 @@ font-size: 21px;
  }
  .vverh-tel span{
         margin: 0 5px;
-                padding: 10px 30px;
-        background-color: #F0C735;
-        color: #363636;
-                display: inline-block;
-              width: auto;
+        padding: 10px 30px;
+        color: #b9db5a;
+        display: inline-block;
+        width: auto;
  }
 }
