@@ -354,7 +354,8 @@ display: block;
 
 }
 .nameblock-img__adittionalText > span  {
-    
+    color: #fff;
+    font-weight: bold;
 }
 .nameblock-img h5{
         /* display: inline-block; */
@@ -387,25 +388,26 @@ display: block;
 .nameblock-i6 .col-md-2{
               padding: 0 3px;
 }
-/* .nameblock-i6 spani6{
-       font-size: 16px;
-} */
 .nameblock-i6 .icomoon{
               color: #f0c735;
 /*         font-size: 61px;
                 margin: 10px 0 30px; */
 }
 .nameblock-i6 p{
-            text-align: left;
-        /* font-size: 21px; */
-        color: #434343;
+        margin-top: 20px;
+        text-align: left;
+        color: #1e1e1e;
+        font-family: "Myriad Pro";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
         margin-bottom: 45px;
 }
 .conten-shema{
- padding-top: 20px;
+        padding-top: 20px;
         padding-bottom: 40px;
-             text-align: center;
-                   background-color: #f0c735;
+        text-align: center;
+        background-color: #1A294D;
         color: #434343;
 }
 .conten-shema h3{
@@ -938,7 +940,7 @@ font-size: 18px;
  }
  .nameblock ul li{
         margin: 0 10px;
-        width: 43%;
+        width: 37%;
         margin-bottom: 10px;
  }
  .nameblock ul li > img {
@@ -950,8 +952,8 @@ font-size: 18px;
          text-align: center;
  }
  .nameblock ul{
-               /* margin: 30px 0 30px; */
-               text-align: center;
+    margin: 0px 0 100px;
+    text-align: center;
  }
  hr {
     -webkit-transform: rotate(170deg);
@@ -1156,7 +1158,7 @@ hr {
         left: 116px;
  }
  .nameblock ul li{
-    padding: 10px 15px;
+    padding: 0px 15px;
  }
  .nameblock-img h5{
                display: block;
@@ -1307,9 +1309,6 @@ font-size: 21px;
         font-size: 61px;
                 margin: 10px 0 30px;
  }
- .nameblock-i6 spani6{
-       font-size: 16px;
- }
  .nameblock-i6 p{
         font-size: 21px;
  }
@@ -1340,16 +1339,15 @@ font-size: 21px;
         left: 120px;
  }
  .nameblock ul{
-               margin: 30px 0 65px;
-               text-align: right;
+        margin: 30px 0 65px;
  }
  .nameblock spanw{
-              font-size: 51px;
-         margin-left: 75px;
-         text-align: left;
+        font-size: 51px;
+        margin-left: 75px;
+        text-align: left;
  }
  .nameblock ul li{
-       padding: 10px 15px;
+        padding: 10px 15px;
         margin: 0 10px;
         width: 173px;
         margin-bottom: 0;
@@ -1357,7 +1355,6 @@ font-size: 21px;
  .nameblock-img h4{
         color: #ffffff;
         font-size: 32px;
-        text-align: right;
         margin-bottom: .5rem;
  }
  .nameblock-img{
@@ -1417,7 +1414,24 @@ font-size: 21px;
         left: 70px;
  }
  .nameblock-i6 spani6 {
-        font-size: 14px;
+        display: block;
+        height: 34px;   
+        color: #1e1e1e;
+        font-family: "Myriad Pro";
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 23px;
+ }
+ .nameblock-i6 :nth-child(5) spani6 {
+    white-space: nowrap;
+ }
+ .nameblock-i6 img {
+    margin: 15px 0px 20px 0px;
+ }
+ .nameblock-img__adittionalText {
+    position: absolute;
+    bottom: -50px;
+    left: 25%;
  }
 }
 @media (min-width: 1024px) {
@@ -1425,7 +1439,7 @@ font-size: 21px;
 }
 @media (min-width: 1095px) {
  .nameblock-i6 spani6{
-       font-size: 14px;
+       font-size: 12px;
  }
  hr {
         width: 285px;
@@ -1433,9 +1447,9 @@ font-size: 21px;
         left: 55px;
  }
  .nameblock spanw{
-              font-size: 51px;
-         margin-left: 20px;
-         text-align: left;
+        font-size: 51px;
+        margin-left: 20px;
+        text-align: left;
  }
 .shapka img {
         margin: auto;
@@ -1473,7 +1487,7 @@ font-size: 21px;
                 margin: 10px 0 30px;
  }
  .nameblock-i6 spani6{
-       font-size: 16px;
+       font-size: 12px;
  }
  .nameblock-i6 p{
         font-size: 21px;
@@ -1576,4 +1590,24 @@ font-size: 21px;
         display: inline-block;
         width: auto;
  }
+}
+
+@media all and (max-width: 991px) {
+    .nameblock-img > div:nth-child(3) {
+        position: relative !important;
+        bottom: 115px !important;
+        justify-content: space-around !important;
+    }
+    .nameblock-img h5 {
+        font-size: 27px;
+    }
+    html h5 > span {
+        font-size: 40px;
+    }
+    .nameblock spang {
+        font-size: 39px;
+    }
+    .nameblock spangc {
+        font-size: 20px;
+    }
 }
