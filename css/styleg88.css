@@ -408,38 +408,58 @@ display: block;
         padding-bottom: 40px;
         text-align: center;
         background-color: #1A294D;
-        color: #434343;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+}
+.conten-shema-map {
+    background-color: #B44849;;   
 }
 .conten-shema h3{
- margin-bottom: 25px;
-        /* font-size: 35px; */
-        line-height: 1.1;
+    margin-bottom: 25px;
+    line-height: 1.1;
 }
-.conten-shema div span:nth-child(1){
- padding: 5px 15px;
-        background-color: #B3B3B3;
-        margin-right: 15px;
+.conten-shema-map div span{
+    border-radius: 7px;
 }
-.conten-shema div spanb:nth-child(1){
-         padding: 4px 15px;
+.conten-shema-map div spanb{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 43px;
+    font-weight: bold;
+}
+
+.conten-shema1 > span{
+        padding: 5.5px 15.5px;
         margin-right: 20px;
-        border: 2px solid #999999;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        border-right: 2px solid #fff;
+        border-left: 2px solid #fff;#fff;
+        background-color: yellow;
 }
-.conten-shema div spanbb{
-         padding: 4px 15px;
-        margin-right: 20px;
-        border: 2px solid #999999;
-        background-color: #cccccc;
+.conten-shemaOne > span {
+    background-color: #7E9A33;
 }
+.conten-shemaTwo > span {
+    background-color: #1A294D;
+}
+.conten-shemaThree > span {
+    background-color: transparent;
+}
+
+
+
 .conten-fut .btn,
 .conten-shema-btn .btn{
-         background-color: #f0c735;
+        background-color: #f0c735;
         border-radius: 0;
         border: 1px solid #f0c735;
- margin: auto;
+        margin: auto;
         padding: 5px 80px;
         font-size: 21px;
-                 color: #434343;               
+        color: #434343;               
 }
 .conten-fut .btn{
  margin-bottom: 50px;
@@ -451,13 +471,12 @@ display: block;
  color: #f0c735;
 }
 .video .conten-shema-btn .btn{
-         background-color: #6699FF;
+        background-color: #B44849;
         border-radius: 0;
-        border: 1px solid #6699FF;
- margin: auto;
-        /* padding: 5px 55px; */
-        /* font-size: 21px; */
-                 color: #ffffff;             
+        border: 1px solid #B44849;
+        margin: auto;
+        color: #ffffff;   
+        font-weight: bold;          
 }
 .video .conten-shema-btn .btn:hover{
   background-color: rgba(237, 59, 67, 0);
@@ -604,30 +623,13 @@ padding-top: 80px;
 .conten-wmr-h1 h2{
     display: inline-block;
     vertical-align: middle;
-            margin: 0;
-            font-weight: bold;
-                    font-size: 33px;
-                    color: #434343;
+    margin: 0;
+    font-weight: bold;
+    color: #b44849;
+    font-size: 35px;
+    line-height: 25px;
 }
-.conten-wmr-h1:before,
-.conten-wmr-h1:after {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    width: 100%;
-                height: 2px;
-            background-color: #474E65;
-    position: relative;
-}
-.conten-wmr-h1:before {
-    left: -30px;
-            width: 15%;
 
-}
-.conten-wmr-h1:after {
-    right: -30px;
-            width: 15%;
-}
 .conten-wmr .icomoon{
                 display: block;
         padding-bottom: 15px;
@@ -747,15 +749,9 @@ padding-top: 80px;
         display: block;
 }
 #promka{
-       /* position: absolute; */
-        /* top: 78%; */
-        /* left: 35%; */
         text-align: center;
-        /* font-size: 34px; */
         color: #ffffff;
-        /* padding: 0px 145px; */
         background-color: #acb05f;
-        /* border-radius: 30px; */
         margin: auto;
         margin-top: 35px;
         display: inline-block;
@@ -763,8 +759,6 @@ padding-top: 80px;
         margin: 7% 0 3%;
 }
 .video .conten-shema h3{
- /* width: 60%;
- display: inline-block; */
  margin-bottom: 0;
 }
 .video .conten-shema .conten-shema-btn{
@@ -772,34 +766,47 @@ padding-top: 80px;
         margin-top: 0;
         background-color: rgba(242, 242, 242, 0);
         padding: 0 0;
-        /* display: inline-block;
-        width: 39%; */
 }
+.video .conten-shema .conten-shema-btn > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}   
 .video .conten-shema .conten-shema-btn span{
- display: block;
+}
+.video .conten-shema .conten-shema-btn img {
+    margin-right: 10px;
+    display: block;
 }
 .video .videoin .nameblock {
         margin-top: 0;
 }
 .video .videoin .nameblock h3{
-                font-size: 42px;
         margin: 45px 0;
-                color: #ffffff;
-                margin-bottom: 30px;
-}
-.video .videoin .nameblock h3 span{
-               color: #F0C735;
+        color: #b44849;
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 25px;
+        margin-bottom: 30px;
+        white-space: nowrap;
 }
 .video .videoin .nameblock p{
-        color: #ffffff;
+        color: #1e1e1e;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 23px;
+        position: relative;
+        top: 15px;
 }
 .video .videoin {
         margin: 30px 0;
         text-align: center;
 }
 .video .videoin iframe{
-             border: 3px solid #f0c735;
-             
+        position: relative;
+        top: 15px;
 }
 .video .videof{
             /*  width: 46.5%; */
@@ -1113,8 +1120,8 @@ hr {
 }
 @media (min-width: 600px) {
  .conten-shema .conten-shema1{
-         display: inline-block;
-        margin-right: 20px;
+        display: inline-block;
+        margin-right: 30px;
 }
  .video .conten-shema h3 {
         font-size: 30px;
@@ -1246,21 +1253,25 @@ hr {
         padding-bottom: 40px;
 }
  .video .conten-shema h3{
- width: 60%;
- display: inline-block;
- text-align: left;
- margin-bottom: 0;
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
 }
 .video .videoin .nameblock p {
-        font-size: 18px;
+        font-size: 24px;
 }
 .video .conten-shema .conten-shema-btn{
         display: inline-block;
         width: 39%;
 }
  .video .conten-shema-btn .btn{
-        padding: 5px 55px;   
-font-size: 21px;          
+        padding: 12px 55px;   
+        font-size: 21px;          
 }
  .conten .col-md-7 {
         padding: 0;
@@ -1316,7 +1327,10 @@ font-size: 21px;
          margin-right: 0;
 }
  .conten-shema h3{
+        color: #ffffff;
         font-size: 35px;
+        font-weight: 700;
+        line-height: 43px;
  }
  .nameblock-img h5{
         display: inline-block;
